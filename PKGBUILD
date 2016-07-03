@@ -14,14 +14,10 @@ optdepends=(
 )
 license=('Apache')
 
-build() {
-  cd "${srcdir}/${pkgname}-v${pkgver}"
-  ./build
-}
 
 package() {
   cd "${srcdir}/${pkgname}-v${pkgver}"
-  install -D -m755 bin/$pkgname "$pkgdir/usr/bin/$pkgname"
+  install -D -m755 $pkgname "$pkgdir/usr/bin/$pkgname"
 }
 md5sums=('157a2b2b17b0cf59442331fb20622bd5'
          'SKIP')
