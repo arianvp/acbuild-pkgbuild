@@ -1,7 +1,7 @@
 pkgdesc="App Container Image Build Command"
 pkgname=acbuild
 pkgver=0.4.0
-pkgrel=2
+pkgrel=1
 arch=('i686' 'x86_64')
 url="https://github.com/containers/build"
 source=("https://github.com/containers/build/releases/download/v${pkgver}/${pkgname}-v${pkgver}.tar.gz"{,.asc})
