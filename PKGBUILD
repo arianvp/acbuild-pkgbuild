@@ -1,10 +1,10 @@
 pkgdesc="App Container Image Build Command"
 pkgname=acbuild
-pkgver=0.3.1
+pkgver=0.4.0
 pkgrel=2
 arch=('i686' 'x86_64')
-url="https://github.com/appc/acbuild"
-source=("https://github.com/appc/${pkgname}/releases/download/v${pkgver}/${pkgname}-v${pkgver}.tar.gz"{,.asc})
+url="https://github.com/containers/build"
+source=("https://github.com/containers/build/releases/download/v${pkgver}/${pkgname}-v${pkgver}.tar.gz"{,.asc})
 validgpgkeys=('4AF8D94884580913')
 md5sums=('157a2b2b17b0cf59442331fb20622bd5', '678d3533813d1a8cdc90538f0d1f11cd')
 makedepends=('go')
